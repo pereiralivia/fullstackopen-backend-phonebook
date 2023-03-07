@@ -1,0 +1,8 @@
+# personExists
+# GET http://localhost:3001/api/persons/640637cf64a94383b9df0f63
+
+# Person doesn't exist
+# GET http://localhost:3001/api/persons/5c41c90e84d891c15dfa3431
+
+# Invalid Id
+GET http://localhost:3001/api/persons/someInvalidId
